@@ -37,6 +37,7 @@ function App() {
                         <Route path="/statistics" element={<Statistics />} />
                         <Route path="/rating" element={<Rating />} />
                         <Route path="/shop" element={<Shop />} />
+                        <Route path="/register" element={<Register />} />
                         <Route path="/extra-lessons" element={<ExtraLessons />} />
                         <Route path="/settings" element={<Settings />} />
                         <Route path="*" element={<h1 className="text-4xl text-center py-20">404</h1>} />
