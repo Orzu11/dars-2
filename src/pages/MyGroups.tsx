@@ -24,15 +24,15 @@ export default function MyGroups() {
                 <span>Progress:</span>
                 <span>{group.progress}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div className="w-full bg-blue-200 rounded-full h-3">
                 <div 
-                  className="bg-green-500 h-3 rounded-full transition-all"
+                  className="bg-green-600 h-3 rounded-full transition-all"
                   style={{ width: `${group.progress}%` }}
                 />
               </div>
             </div>
 
-            <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-medium transition">
+            <button className="mt-6 w-full bg-slate-800 hover:bg-blue-900 text-white py-3 rounded-lg font-medium transition">
               Guruhga kirish
             </button>
           </div>

@@ -19,7 +19,7 @@ export const studentData = {
       progress: 65,
       description: "Hooks, Context va real loyihalar bilan ishlash",
       startDate: "2025-11-15",
-      schedule: "Seshanba, Payshanba 19:00",
+      schedule: "Dushanba, Chorshanba, Juma, 19:00",
       price: 1500000
     },
     {

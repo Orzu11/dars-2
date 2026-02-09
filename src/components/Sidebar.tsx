@@ -36,7 +36,7 @@ export default function Sidebar() {
       <div className="p-6 border-t border-gray-700">
         <button
           onClick={logout}
-          className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded font-medium"
+          className="w-full bg-orange-600 hover:bg-orange-800 text-white py-3 rounded font-medium"
         >
           Chiqish
         </button>

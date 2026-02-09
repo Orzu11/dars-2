@@ -1,1 +1,11 @@
 @import "tailwindcss";
+/* Fonni sekin harakatlantirish — tabiat jonli ko‘rinadi */
+@keyframes slow-move {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-slow-move {
+  animation: slow-move 180s linear infinite;  /* 3 daqiqa — sekin va tabiiy */
+}
