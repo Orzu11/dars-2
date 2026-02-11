@@ -23,7 +23,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const login = (username: string, password: string): boolean => {
-    if (username === 'orzumurod' && password === '123456') {
+    if (username === 'orzu@gmail.com' && password === '123456') {
       const data = { username, fullName: 'Orzumurod Abdurahmonov' }
       localStorage.setItem('user', JSON.stringify(data))
       setUser(data)
